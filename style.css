@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #c4c4c4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shakl{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+.tortbutchak{
+    box-shadow: 5px 5px 15px #777777,
+                -5px -5px 15px #ffffff;
+}
+
+.aylana{
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px #777777,
+                -5px -5px 15px #ffffff;
+}
+
+.aylana::before{
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: inset 5px 5px 15px #777777,
+                inset -5px -5px 15px #ffffff;
+}
+
+.tortburchakInset{
+    border: none;
+    box-shadow: inset 5px 5px 15px #777777,
+                inset -5px -5px 15px #ffffff;
+}
